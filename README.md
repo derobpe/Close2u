@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="logo_v1.png" alt="Close2U App Logo" width="300"/>
+</div>
+
 # Close2U
 
 **Close2U** is a community-driven platform that connects neighbors to offer and request local services such as dog walking, home assistance, and volunteer help. Our goal is to foster collaboration and strengthen the bonds within local communities.
@@ -11,11 +15,11 @@
 - 🔔 **Notifications**: Get notified when a service is requested or offered.
 - ⭐ **Ratings and Reviews**: Build trust by leaving reviews for services received.
 
-## 🏁 RoadMap 
+## 🏁 RoadMap
 
 1. **Project Idea Submission**:
 
-   - Develop the concept of **LocalHands** as a platform to connect neighbors through local services.
+   - Develop the concept of **Close2U** as a platform to connect neighbors through local services.
    - Define the main functionalities: service offerings, help requests, dog walking, volunteering, etc.
    - Validate the idea with the tutor.
 
@@ -75,7 +79,7 @@
 
 to be implemented
 
-## 🎨 Color Palette 
+## 🎨 Color Palette
 
 to be defined
 
@@ -100,30 +104,35 @@ to be updated when created
 
 ## 🤝 Contributing
 
-We appreciate all contributions that help improve **LocalHands**! 
+We appreciate all contributions that help improve **Close2U**!
 
 Follow these steps to get involved:
 
 1. **Fork the repository**:
+
    - Click the **Fork** button at the top of this repository to copy it to your own GitHub account.
 
 2. **Create a new branch**:
-     ```bash
-     git checkout -b feature-name
-     ```
+
+   ```bash
+   git checkout -b feature-name
+   ```
 
 3. **Make your changes**:
+
    - Implement your feature or fix
 
 4. **Commit your changes**:
-     ```bash
-     git commit -m 'Add detailed explanation of changes'
-     ```
+
+   ```bash
+   git commit -m 'Add detailed explanation of changes'
+   ```
 
 5. **Push your changes**:
-     ```bash
-     git push origin feature-name
-     ```
+
+   ```bash
+   git push origin feature-name
+   ```
 
 6. **Submit a pull request**:
    - Go to the **Pull Requests** section of the original repository.
