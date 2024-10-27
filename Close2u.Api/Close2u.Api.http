@@ -1,6 +1,0 @@
-@Close2u.Api_HostAddress = http://localhost:5255
-
-GET {{Close2u.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
