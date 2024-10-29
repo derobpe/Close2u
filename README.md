@@ -100,7 +100,7 @@ to be defined
    ```bash
    sudo docker run --platform <your_platform> -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=<YourStrong@Passw0rd>' -p 1444:1433 --name Close2u --hostname Close2u -d mcr.microsoft.com/mssql/server:2022-latest
    ```
-4. Create .net 8 api
+
 
 ## Usage
 
