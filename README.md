@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo_v1.png" alt="Close2U App Logo" width="300"/>
+  <img src="./app/views/img/logo_v1.png" alt="Close2U App Logo" width="300"/>
 </div>
 
 # Close2U
