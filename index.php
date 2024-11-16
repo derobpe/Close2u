@@ -27,6 +27,7 @@ if (isset($_GET['views'])) {
     if ($view == "login" || $view == "404") {
         require_once "./app/views/content/" . $view . "-view.php";
     } else {
+        require_once "./app/views/inc/navbar.php";
         require_once $view;
     }
 
