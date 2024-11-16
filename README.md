@@ -85,23 +85,31 @@ to be defined
 
 ## Installation
 
-1. Clone the repository:
+1. Apache
+   ```
+   brew install httpd
+   sudo brew services start httpd
+   ```
+2. PHP
+   ```
+   brew install php
+   ```
+3. MySQL
+   ```
+   brew install mysql
+   brew services start mysql
+   mysqladmin -u root password 'yourPass'
+   ```
+4. PHPMyAdmin
+   ```
+   brew install phpmyadmin
+   ```
+5. Clone the repository into Apache's `www` folder:
    ```bash
+   cd /opt/homebrew/var/www
    git clone https://github.com/derobpe/close2u.git
    ```
-2. Pull the Docker image for SQL Server
-   ```bash
-    sudo docker pull mcr.microsoft.com/mssql/server:2022-latest
-   ```
-3. Create SQL server container
-   >Note: Each user should adjust the --platform parameter according to their architecture. For example, users with Mac M1 or M2 (ARM architecture) should specify --platform linux/amd64. Also, make sure to replace <YourStrong@Passw0rd> with a secure password of your choice.
 
-   > Important: SQL Server requires that you accept the End-User License Agreement (EULA) before it can start. You can do this by setting the ACCEPT_EULA=Y environment variable as shown below.
-   ```bash
-   sudo docker run --platform <your_platform> -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=<YourStrong@Passw0rd>' -p 1444:1433 --name Close2u --hostname Close2u -d mcr.microsoft.com/mssql/server:2022-latest
-   ```
-4. Install Microsoft.EntityFrameworkCore.SqlServer
-   dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 
 
 ## Usage
