@@ -21,20 +21,20 @@
                 Dashboard
             </a>
 
-            <!-- Dropdown for Usuarios -->
+            <!-- Dropdown for Users -->
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link" href="#">
-                    Usuarios
+                    Users
                 </a>
                 <div class="navbar-dropdown is-boxed">
                     <a class="navbar-item" href="#">
-                        Nuevo
+                        New
                     </a>
                     <a class="navbar-item" href="#">
-                        Lista
+                        List
                     </a>
                     <a class="navbar-item" href="#">
-                        Buscar
+                        Find
                     </a>
                 </div>
             </div>
@@ -48,14 +48,14 @@
                 </a>
                 <div class="navbar-dropdown is-boxed">
                     <a class="navbar-item" href="#">
-                        Mi cuenta
+                        My account
                     </a>
                     <a class="navbar-item" href="#">
-                        Mi foto
+                        My photo
                     </a>
                     <hr class="navbar-divider">
                     <a class="navbar-item" href="#" id="btn_exit">
-                        Salir
+                        Exit
                     </a>
                 </div>
             </div>
