@@ -3,7 +3,9 @@ Options All -Indexes
 RewriteRule ^([a-zA-Z0-9/ñÑ-]+)S index.php?views=$1
 <IfModule mod_rewrite.c>
     RewriteEngine On
+    RewriteBase /Close2u/
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ index.php?views=$1 [L,QSA]
 </IfModule>
+
