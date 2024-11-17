@@ -14,33 +14,30 @@
             <div class="column">
                 <div class="control">
                     <label>Name</label>
-                    <input class="input" type="text" name="user_name" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,100}"
-                        maxlength="100" required>
+                    <input class="input" placeholder="your name" type="text" name="user_name"
+                        pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,100}" maxlength="100" required>
                 </div>
             </div>
             <div class="column">
                 <div class="control">
                     <label>Surname</label>
-                    <input class="input" type="text" name="user_surname" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,100}"
-                        maxlength="100" required>
+                    <input class="input" placeholder="your surname" type="text" name="user_surname"
+                        pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,100}" maxlength="100" required>
                 </div>
             </div>
             <div class="column">
                 <div class="control">
                     <label>Username</label>
-                    <input class="input" type="text" name="user_username" pattern="[a-zA-Z0-9._-]{3,12}" maxlength="100"
-                        required>
-                    <p class="help is-info">
-                        The username can include letters, numbers, dots (.), underscores (_), and hyphens (-). Between 3
-                        and 12 characters.
-                    </p>
+                    <input class="input" placeholder="your username" type="text" name="user_username"
+                        pattern="[a-zA-Z0-9.\-_]{3,12}" maxlength="100" required>
                 </div>
 
             </div>
             <div class="column">
                 <div class="control">
                     <label>Email</label>
-                    <input class="input" type="email" name="user_email" maxlength="255">
+                    <input class="input" placeholder="your favorite email" type="email" name="user_email"
+                        maxlength="255">
                 </div>
             </div>
         </div>
@@ -50,14 +47,14 @@
             <div class="column">
                 <div class="control">
                     <label>Password</label>
-                    <input class="input" type="password" name="user_password_1" pattern="[a-zA-Z0-9$@.-]{7,60}"
+                    <input class="input" type="password" name="user_password_1" pattern="[a-zA-Z0-9$@.\-]{6,12}"
                         maxlength="60" required>
                 </div>
             </div>
             <div class="column">
                 <div class="control">
                     <label>Repeat Password</label>
-                    <input class="input" type="password" name="user_password_2" pattern="[a-zA-Z0-9$@.-]{7,60}"
+                    <input class="input" type="password" name="user_password_2" pattern="[a-zA-Z0-9$@.\-]{6,12}"
                         maxlength="60" required>
                 </div>
             </div>

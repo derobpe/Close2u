@@ -87,7 +87,12 @@ class mainModel
             "::"
         ];
 
-        $string = mb_convert_encoding($string, 'UTF-8', 'UTF-8');
+        if (!is_null($string)) {
+            $string = mb_convert_encoding($string, 'UTF-8', 'UTF-8');
+        } else {
+            error_log("Warning: Attempted to encode a null string to UTF-8.");
+            $string = '';
+        }
 
         $string = trim($string);
         $string = stripslashes($string);
