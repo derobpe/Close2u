@@ -4,7 +4,7 @@
 </div>
 
 <div class="container pb-6 pt-6">
-    <form class="FormAjax" action="" method="POST" autocomplete="off"
+    <form class="FormAjax" action="<?php echo APP_URL; ?>app/ajax/userAjax.php" method="POST" autocomplete="off"
         enctype="multipart/form-data">
         <!-- Hidden input to indicate the module to activate controller to save data  -->
         <input type="hidden" name="module_user" value="register">
@@ -28,8 +28,8 @@
             <div class="column">
                 <div class="control">
                     <label>Username</label>
-                    <input class="input" type="text" name="user_username" pattern="[a-zA-Z0-9._-]{3,12}"
-                        maxlength="100" required>
+                    <input class="input" type="text" name="user_username" pattern="[a-zA-Z0-9._-]{3,12}" maxlength="100"
+                        required>
                     <p class="help is-info">
                         The username can include letters, numbers, dots (.), underscores (_), and hyphens (-). Between 3
                         and 12 characters.
