@@ -27,8 +27,8 @@
                     Users
                 </a>
                 <div class="navbar-dropdown is-boxed">
-                    <a class="navbar-item" href="#">
-                        New
+                    <a class="navbar-item" href="<?php echo APP_URL; ?>new-user/">
+                        Nuevo
                     </a>
                     <a class="navbar-item" href="#">
                         List
